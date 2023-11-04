@@ -5,6 +5,32 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #bababa;
-    margin: 0;
+    margin: 2em;
     padding: 0;
+}
+
+a {
+    color: #3399aa;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #006677;
+}
+
+.code {
+    padding: 1em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9em;
+    line-height: 1.5;
+    background-color: black;
+    border-radius: 0.5em;
+}
+
+.code p {
+    margin: 0;
+}
+
+.code pre {
+    margin: 0;
 }
